@@ -45,7 +45,11 @@ function deleteButton(element) {
 function newTodo() {
   const li = document.createElement('li')
   li.setAttribute("class", classNames.TODO_ITEM)
-  li.innerHTML = "New TODO"
+
+  const todoInput = document.getElementById('todoInput')
+  todoInput.value ? li.innerHTML = todoInput.value : li.innerHTML = "New Todo"
+  todoInput.value = ''
+  todoInput.focus()
 
   checkBox(li)
   deleteButton(li)
