@@ -1,1 +1,2 @@
-Aplicativo de tarefas feito para treinar Javascript, HTML e CSS.
+# to-do-app
+ Aplicativo feito como projeto final de curso de React Native
