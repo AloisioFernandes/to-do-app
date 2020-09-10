@@ -1,2 +1,2 @@
 # to-do-app
- Aplicativo feito como projeto final de curso de React Native
+ Aplicativo de tarefas feito com HTML, CSS e Javascript
